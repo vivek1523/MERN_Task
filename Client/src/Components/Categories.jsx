@@ -7,7 +7,7 @@ const Categories = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    axios.get('https://mern-task-backend-6cuc.onrender.com')
+    axios.get('https://mern-task-backend-6cuc.onrender.com/api/categories')
       .then(response => {
         setCategories(response.data);
         setLoading(false);
