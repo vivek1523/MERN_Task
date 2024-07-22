@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #333;
+    padding: 10px;
+  }
+  .Stores{
+    font-size: 40px;
+    color: white;
+  }
+  .navbar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-menu li {
+    margin: 0 15px;
+  }
+  
+  .navbar-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .navbar-menu a:hover {
+    text-decoration: underline;
+  }
+  

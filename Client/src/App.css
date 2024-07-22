@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  padding: 20px;
+}
+
+.banners, .categories, .products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.banner, .category, .product {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+img {
+  max-width: 60%;
+  height: auto;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+p {
+  margin: 5px 0;
+}
