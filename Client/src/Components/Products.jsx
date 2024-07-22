@@ -7,7 +7,7 @@ const Products = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    axios.get('http://localhost:4000/api/products')
+    axios.get('https://mern-task-backend-6cuc.onrender.com/api/products')
       .then(response => {
         setProducts(response.data);
         setLoading(false);
