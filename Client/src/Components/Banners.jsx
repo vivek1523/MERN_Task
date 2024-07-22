@@ -7,7 +7,7 @@ const Banners = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    axios.get('https://mern-task-backend-6cuc.onrender.com')
+    axios.get('https://mern-task-backend-6cuc.onrender.com//api/banners')
       .then(response => {
         setBanners(response.data);
         setLoading(false);
